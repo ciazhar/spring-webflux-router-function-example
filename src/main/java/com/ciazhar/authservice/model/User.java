@@ -1,6 +1,5 @@
 package com.ciazhar.authservice.model;
 
-import java.util.Collection;
 import java.util.Date;
 import java.util.Set;
 
