@@ -3,6 +3,7 @@ target/
 .mvn/
 mvnw
 mvnw.cmd
+.vscode
 
 ### STS ###
 .apt_generated
