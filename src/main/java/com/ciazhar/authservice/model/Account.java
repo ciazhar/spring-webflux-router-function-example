@@ -5,6 +5,8 @@ import java.util.Date;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import com.ciazhar.authservice.validation.UserMustExists;
+
 import lombok.Builder;
 import lombok.Data;
 
@@ -14,7 +16,7 @@ import lombok.Data;
 public class Account {
     @Id
     private String id;
-    // @UserMustExists
+    @UserMustExists
     private String userId;
     private String account;
     private AccountSourceType accountSourceType;
